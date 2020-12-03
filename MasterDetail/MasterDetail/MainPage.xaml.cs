@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Plugin.SimpleAudioPlayer;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -10,6 +11,7 @@ namespace MasterDetail
 {
     public partial class MainPage : MasterDetailPage
     {
+        
         public MainPage()
         {
             InitializeComponent();

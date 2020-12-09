@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MasterDetail.Views.Dog3">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                Text="Золоти́стый ретри́вер, или го́лден-ретри́вер (англ. golden retriever), — порода охотничьих собак, выведенная в Великобритании в XIX веке. &#10;Золотистый ретривер был выведен в Англии как универсальная охотничья собака для подачи битой дичи. Имеет одних и тех же предков с лабрадором. По одной из версий, не имеющей, к слову, никаких документальных подтверждений, появление породы связано с именем лорда Твидмаута, сэра Дадли Маджорибенкса. В 1858 году он побывал в Брайтоне на представлении заезжего цирка, где в одном из номеров увидел собак, поразивших его своим интеллектом. Он был настолько покорён, что сразу же приобрёл в цирке восемь собак. "
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="Fill"
+                FontAttributes="Bold"
+                Padding="0"
+                />
+            <Image
+                Source="Resources/drawable/gold.jpg"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                WidthRequest="300"
+                HeightRequest="300"
+                />
+            <Button x:Name="bark"
+                    Text="Гав Гав"
+                    Pressed="bark_Pressed"
+                    />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

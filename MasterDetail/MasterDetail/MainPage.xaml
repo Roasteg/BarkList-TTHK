@@ -4,7 +4,7 @@
              x:Class="MasterDetail.MainPage">
 
     <MasterDetailPage.Master>
-        <ContentPage Title="Menu" BackgroundColor="Cyan" Padding="15">
+        <ContentPage Title="Menu" BackgroundColor="White" Padding="15">
             <ContentPage.Content>
                 <StackLayout Margin="10">
                     <ListView x:Name="aboutList" ItemSelected="aboutList_ItemSelected">

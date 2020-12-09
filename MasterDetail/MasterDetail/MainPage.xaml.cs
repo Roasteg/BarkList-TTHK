@@ -26,9 +26,38 @@ namespace MasterDetail
             var list = new List<MasterMenuItems>();
             list.Add(new MasterMenuItems()
             {
-                Text = "Minust",
-                Detail = "Lühike info",
+                Text = "Вельш Корги",
+                Detail = "О собаке...",
+                ImagePath = "korgi.jpg",
                 TargetPage = typeof(Views.Dog)
+            });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Лайка",
+                Detail = "О собаке...",
+                ImagePath = "eskimo.jpg",
+                TargetPage = typeof(Views.dog1)
+            });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Немецкая овчарка",
+                Detail = "О собаке...",
+                ImagePath = "shepherd.jpg",
+                TargetPage = typeof(Views.Dog2)
+            });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Золотистый ретривер",
+                Detail = "О собаке...",
+                ImagePath = "gold.jpg",
+                TargetPage = typeof(Views.Dog3)
+            });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Золотистый ретривер",
+                Detail = "О собаке...",
+                ImagePath = "hound.jpg",
+                TargetPage = typeof(Views.Dog4)
             });
             return list;
         }

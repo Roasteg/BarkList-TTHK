@@ -1,28 +1,26 @@
-﻿using System;
+﻿using Plugin.SimpleAudioPlayer;
+using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using Plugin.SimpleAudioPlayer;
+
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace MasterDetail.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Dog : ContentPage
+    public partial class Dog2 : ContentPage
     {
-        public Dog()
+        public Dog2()
         {
             InitializeComponent();
         }
-       
+
         private void bark_Pressed(object sender, EventArgs e)
         {
-            new StreamSound("CorgiBarking.mp3");
+            new StreamSound("GermanShepherd.mp3");
         }
-        
     }
 }

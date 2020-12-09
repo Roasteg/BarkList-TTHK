@@ -12,17 +12,16 @@ using Xamarin.Forms.Xaml;
 namespace MasterDetail.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Dog : ContentPage
+    public partial class dog1 : ContentPage
     {
-        public Dog()
+        public dog1()
         {
             InitializeComponent();
         }
-       
+
         private void bark_Pressed(object sender, EventArgs e)
         {
-            new StreamSound("CorgiBarking.mp3");
+            new StreamSound("EskimoBarking.mp3");
         }
-        
     }
 }

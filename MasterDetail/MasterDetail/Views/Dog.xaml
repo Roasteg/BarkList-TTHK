@@ -5,10 +5,26 @@
     
     <ContentPage.Content>
         <StackLayout>
+            <Label
+                Text="Вельш-ко́рги — породы пастушьих собак, происходящие из Уэльса. К уэльским корги относятся: &#10;Вельш-корги-кардиган (англ. Welsh Corgi Cardigan) — порода, появившаяся на изолированной территории Кардиганшира. Согласно наиболее популярной версии, предки вельш-корги-кардиганов были завезены кельтами при освоении территории Британских островов в конце бронзового века. Первое упоминание породы в письменных источниках датируется X веком.&#10;Вельш-корги-пемброк (англ. Welsh Corgi Pembroke) — порода, выведенная в Пембрукшире, предположительно, из собак фламандского происхождения и ведущая свою историю с XIII века."
+                VerticalOptions="Fill"
+                HorizontalOptions="Fill"
+                FontAttributes="Bold"
+                >
+                
+            </Label>
+            <Image
+                Source="Resources/drawable/korgi.jpg"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="Center"
+                WidthRequest="300"
+                HeightRequest="300"
+                >
+            </Image>
             <Button
                 x:Name="bark"
                 Pressed="bark_Pressed"
-                Text="Woof Woof"
+                Text="Гав гав"
                 >
                 
             </Button>

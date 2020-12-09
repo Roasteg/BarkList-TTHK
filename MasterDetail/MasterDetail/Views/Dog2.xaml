@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MasterDetail.Views.Dog2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                Text="Немецкая овчарка — порода собак, изначально использовалась в качестве пастушьей и служебно-розыскной собаки. &#10;Немецкая овчарка была получена в результате селекции и скрещивания некоторых разновидностей гуртовых собак Центральной и Южной Германии. Различают гладкошёрстную и длинношёрстную разновидности.&#10;В наше время немецкие овчарки участвуют в выставках, а также используются для охраны, занятий кинологическими видами спорта, а также как собаки для семьи. "
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="Fill"
+                FontAttributes="Bold"
+                Padding="0"
+                />
+            <Image
+                Source="Resources/drawable/shepherd.jpg"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                WidthRequest="300"
+                HeightRequest="300"
+                />
+            <Button x:Name="bark"
+                    Text="Гав Гав"
+                    Pressed="bark_Pressed"
+                    />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

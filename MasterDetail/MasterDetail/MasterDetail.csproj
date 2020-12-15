@@ -12,20 +12,28 @@
 
   <ItemGroup>
     <None Remove="sounds\CorgiBarking.mp3" />
+    <None Remove="sounds\DachhundBarking.mp3" />
     <None Remove="sounds\EskimoBarking.mp3" />
     <None Remove="sounds\GermanShepherd.mp3" />
     <None Remove="sounds\GoldenRetBarking.mp3" />
     <None Remove="sounds\HoundBarking.mp3" />
     <None Remove="sounds\HuskyBarking.mp3" />
+    <None Remove="sounds\PugBarking.mp3" />
+    <None Remove="sounds\ShibaBarking.mp3" />
+    <None Remove="sounds\SpringerBarking.mp3" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="sounds\CorgiBarking.mp3" />
+    <EmbeddedResource Include="sounds\DachhundBarking.mp3" />
     <EmbeddedResource Include="sounds\EskimoBarking.mp3" />
     <EmbeddedResource Include="sounds\GermanShepherd.mp3" />
     <EmbeddedResource Include="sounds\GoldenRetBarking.mp3" />
     <EmbeddedResource Include="sounds\HoundBarking.mp3" />
     <EmbeddedResource Include="sounds\HuskyBarking.mp3" />
+    <EmbeddedResource Include="sounds\PugBarking.mp3" />
+    <EmbeddedResource Include="sounds\ShibaBarking.mp3" />
+    <EmbeddedResource Include="sounds\SpringerBarking.mp3" />
   </ItemGroup>
 
   <ItemGroup>
@@ -54,6 +62,21 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Dog4.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Dog5.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Dog6.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Dog7.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Dog8.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Dog9.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MasterDetail.Views.dog1">
+             x:Class="MasterDetail.Views.Dog5">
     <ContentPage.Content>
         <StackLayout>
             <Label
-                Text="Лайки — общее название пород охотничьих собак северной лесной зоны Европы, Азии и Северной Америки. Относится к группе шпицев и их прототипов. Голова клинообразной формы, стоячие остроконечные уши, загнутый кольцом хвост, рост в холке от 38 до 63 см. Шерсть прямая, подшёрсток густой, окраска варьирует. "
+                Text="Мопс — порода декоративных собак. Мопсы были привезены из Китая в Европу в XVI веке и были популярны в Западной Европе и Нидерландах. В Соединённом Королевстве в XIX веке Королева Виктория развила страсть к мопсам, которую она передала другим членам королевской семьи. "
                 VerticalOptions="FillAndExpand"
                 HorizontalOptions="Fill"
                 FontAttributes="Bold"
                 Padding="0"
                 />
             <Image
-                x:Name="eskimo"
-                Source="Resources/drawable/eskimo.jpg"
+                x:Name="pug"
+                Source="Resources/drawable/mops.jpg"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand"
                 WidthRequest="300"

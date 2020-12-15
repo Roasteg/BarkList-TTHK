@@ -12,6 +12,7 @@
                 Padding="0"
                 />
             <Image
+                x:Name="retr"
                 Source="Resources/drawable/gold.jpg"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand"

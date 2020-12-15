@@ -54,10 +54,45 @@ namespace MasterDetail
             });
             list.Add(new MasterMenuItems()
             {
-                Text = "Золотистый ретривер",
+                Text = "Гончая",
                 Detail = "О собаке...",
                 ImagePath = "hound.jpg",
                 TargetPage = typeof(Views.Dog4)
+            });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Мопс",
+                Detail = "О собаке...",
+                ImagePath = "mops.jpg",
+                TargetPage = typeof(Views.Dog5)
+            });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Такса",
+                Detail = "О собаке...",
+                ImagePath = "dachund.jpg",
+                TargetPage = typeof(Views.Dog6)
+            });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Хаски",
+                Detail = "О собаке...",
+                ImagePath = "husky.jpg",
+                TargetPage = typeof(Views.Dog7)
+            });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Сиба-Ину",
+                Detail = "О собаке...",
+                ImagePath = "shibe.jpg",
+                TargetPage = typeof(Views.Dog8)
+            });
+            list.Add(new MasterMenuItems()
+            {
+                Text = "Спаниель",
+                Detail = "О собаке...",
+                ImagePath = "springer.jpg",
+                TargetPage = typeof(Views.Dog9)
             });
             return list;
         }

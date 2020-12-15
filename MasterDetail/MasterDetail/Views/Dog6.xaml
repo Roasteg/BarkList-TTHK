@@ -1,19 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MasterDetail.Views.dog1">
+             x:Class="MasterDetail.Views.Dog6">
     <ContentPage.Content>
         <StackLayout>
             <Label
-                Text="Лайки — общее название пород охотничьих собак северной лесной зоны Европы, Азии и Северной Америки. Относится к группе шпицев и их прототипов. Голова клинообразной формы, стоячие остроконечные уши, загнутый кольцом хвост, рост в холке от 38 до 63 см. Шерсть прямая, подшёрсток густой, окраска варьирует. "
-                VerticalOptions="FillAndExpand"
+                Text="Та́кса — порода охотничьих собак, отличающаяся короткими ногами. Существует несколько разновидностей такс, отличающихся размерами и весом — стандартные, миниатюрные и кроличьи. Также такс разделяют по шёрстному покрову на гладкошерстных, длинношёрстных и жесткошёрстных. Таксы имеют множество окрасов."
                 HorizontalOptions="Fill"
                 FontAttributes="Bold"
                 Padding="0"
                 />
             <Image
-                x:Name="eskimo"
-                Source="Resources/drawable/eskimo.jpg"
+                x:Name="dach"
+                Source="Resources/drawable/dachund.jpg"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand"
                 WidthRequest="300"

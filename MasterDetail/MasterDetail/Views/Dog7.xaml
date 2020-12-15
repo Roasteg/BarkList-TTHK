@@ -1,19 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MasterDetail.Views.dog1">
+             x:Class="MasterDetail.Views.Dog7">
     <ContentPage.Content>
         <StackLayout>
             <Label
-                Text="Лайки — общее название пород охотничьих собак северной лесной зоны Европы, Азии и Северной Америки. Относится к группе шпицев и их прототипов. Голова клинообразной формы, стоячие остроконечные уши, загнутый кольцом хвост, рост в холке от 38 до 63 см. Шерсть прямая, подшёрсток густой, окраска варьирует. "
-                VerticalOptions="FillAndExpand"
+                Text="Сибирский хаски — заводская специализированная порода собак, выведенная чукчами северо-восточной части Сибири и зарегистрированная американскими кинологами в 1930-х годах как ездовая собака, полученная от аборигенных собак Дальнего Востока России."
                 HorizontalOptions="Fill"
                 FontAttributes="Bold"
                 Padding="0"
                 />
             <Image
-                x:Name="eskimo"
-                Source="Resources/drawable/eskimo.jpg"
+                x:Name="husk"
+                Source="Resources/drawable/husky.jpg"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand"
                 WidthRequest="300"

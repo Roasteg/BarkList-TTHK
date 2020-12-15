@@ -12,6 +12,7 @@
                 Padding="0"
                 />
             <Image
+                x:Name="shepherd"
                 Source="Resources/drawable/shepherd.jpg"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand"
